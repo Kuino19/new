@@ -1,0 +1,29 @@
+{
+  "name": "community-app",
+  "version": "1.0.0",
+  "description": "A community app for connecting students on campus.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "campus",
+    "community",
+    "app",
+    "students"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "save-dev": "^0.0.1-security",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
